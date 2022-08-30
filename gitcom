@@ -1,0 +1,9 @@
+#! /bin/bash
+
+git add .
+echo "enter commit message: "
+read mess
+git commit -m "$mess"
+git push
+
+
